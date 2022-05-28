@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bienvenido</title>
+    <link rel="shortcut icon" href="./assets/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
@@ -64,26 +65,30 @@
 
     <div class="row">
         <div class="col-md-12">
-            <nav class="navbar navbar-expand-lg" style="background-color: #252A2E;">
+            <header>
+                <div class="navegador" class="col-md-12">
+                    <nav class="navbar navbar-expand-lg" style="background-color: #252A2E;">
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-                    <ul class="navbar-nav">
+                            <ul class="navbar-nav">
 
-                        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Sobre_mi">Sobre mi</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Habilidades">Habilidades</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Proyectos">Proyectos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Contacto">Contacto</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#Sobre_mi">Sobre mi</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#Habilidades">Habilidades</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#Proyectos">Proyectos</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#Contacto">Contacto</a></li>
 
-                    </ul>
+                            </ul>
 
+                        </div>
+                    </nav>
                 </div>
-            </nav>
+            </header>
         </div>
     </div>
     <section id="Sobre_mi" style="background-color: #1E2326; color: #ffff;">
@@ -92,13 +97,13 @@
                 <h2 class="text-center">
                     Sobre mi
                 </h2>
-                <p><b>Hola, Soy Marcos!</b> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi suscipit
-                    quod necessitatibus iure
-                    ducimus, placeat culpa similique molestiae minima sunt earum officiis distinctio dignissimos veniam
-                    maxime omnis temporibus id aperiam.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui atque inventore dolor eligendi impedit
-                    quisquam quia, sequi porro suscipit officiis maiores vitae neque maxime a odit nisi quidem iste
-                    explicabo!
+                <p><b>Hola, Soy Marcos!</b> un aspirante a full stack developer, me gusta codificar cosas desde cero y
+                    disfruto dandole vida a los pensamientos/ideas en el navegador.
+                    Siempre he sido alguien que tiene un lado creativo como lógico. Cuando descubrí el desarrollo web en
+                    la universidad, me di cuenta de que encajaría perfectamente. Podría usar mi lado creativo para
+                    diseñar y mi lado lógico para programar. <br>
+                    Soy una persona muy autodidacta, siempre me gusta estar aprendiendo y lo mejor de este mundo es que
+                    siempre hay algo nuevo, por ende uno nunca deja de aprender.
                 </p>
                 <div class="row">
                     <div class="col-md-6 .justify-content-center">
@@ -154,11 +159,14 @@
                         </ul>
                     </div>
                 </div>
-                <button type="button" class="btn btn-success">
-                    Button
-                </button>
+                <div class="sobremi__contenedor__buttom">
+                    <div class="sobremi__buttom">
+                        <button class="boton__cv">
+                            <a href="https://www.uc3m.es/orientacionyempleo/media/orientacionyempleo/doc/archivo/doc_plantillascv/plantillas-de-cv-para-descargar-gratis.pdf"
+                                target="_blank"> Descargar CV </a> </button>
+                    </div>
+                </div>
             </div>
-        </div>
     </section>
 
     <section id="Habilidades" style="background-color: #252A2E; color: #ffff;">
