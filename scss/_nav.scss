@@ -1,0 +1,38 @@
+header {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: #252A2E;
+}
+
+.navegador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    a {
+        margin: 0 20px;
+        color: #fff;
+        font-size: 1.5rem;
+
+        &:hover {
+            color: #00D1FF;
+        }
+    }
+}
+
+nav {
+    &::before {
+        content: "";
+        height: 4px;
+        width: 100%;
+        background: #00D1FF;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+}
