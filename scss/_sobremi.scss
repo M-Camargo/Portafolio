@@ -1,9 +1,8 @@
 #Sobre_mi {
     h2 {
-        font-size: 2.5rem;
-        color: #ffff;
-        text-align: center;
-        padding-top: 80px;
+        font: $h2-font;
+        font-size: $medida;
+        padding-top: 60px;
     }
 
     p {
@@ -12,8 +11,14 @@
         }
 
         padding: 50px;
-        font-size: 1rem;
+        font-size: 1.2rem;
         color: #fff;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+        color: #ffff;
+        text-align: center;
     }
 }
 
@@ -23,24 +28,20 @@
     img {
         width: 80%;
         height: 72%;
-        margin-left: 10%;
+        margin-left: 7%;
         margin-top: 50px;
         border-radius: 20px;
     }
 
     ul {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-all(row, center, center, center);
         flex-wrap: wrap;
         gap: 15px;
+        padding-right: 20px;
     }
 
     li {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        @include flex-all(row, center, center, center);
         width: 120px;
         height: 120px;
         transition: all 0.8s ease 0s;
@@ -57,20 +58,19 @@
             font-size: 1rem;
             text-transform: uppercase;
             font-weight: 5;
-            margin-top: 8px;
+            margin-top: 3px;
             display: block;
         }
     }
 
     .bx {
+        padding-top: 20px;
         font-size: 50px;
     }
 }
 
 .sobremi__buttom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex-all(row, center, center, center);
 }
 
 .boton__cv {
@@ -87,6 +87,7 @@
     transition: .3 ease all;
     position: relative;
     overflow: hidden;
+    border-radius: 10px;
 
     a {
         text-decoration: none;
@@ -98,13 +99,13 @@
 
     &::after {
         content: "";
-        width: 100%;
+        width: 110%;
         height: 50px;
         position: absolute;
         z-index: 1;
         top: 0;
         left: calc(-100% - 100px);
-        border-left: 200px solid #00D1FF;
+        border-left: 250px solid #00D1FF;
         transition: .4s ease-in-out all;
     }
 

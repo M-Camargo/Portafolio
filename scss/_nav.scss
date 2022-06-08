@@ -1,16 +1,11 @@
 header {
     position: sticky;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    @include flex-all(row, center, center, center);
     background: #252A2E;
 }
 
 .navegador {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex-all(row, center, center, center);
 }
 
 .navbar {

@@ -11,9 +11,9 @@
     text-align: center;
 
     h2 {
-        font-size: 3rem;
-        color: #ffffff;
-        padding-top: 80px;
+        font: $h2-font;
+        font-size: $medida;
+        padding-top: 60px;
     }
 
     p {
@@ -25,10 +25,7 @@
 }
 
 .contacto__formulario {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
+    @include flex-all(column, center, center, center);
     margin-top: 20px;
 }
 

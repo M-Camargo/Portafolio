@@ -1,7 +1,5 @@
 .contenedor__proyectos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-all(row, center, center, center);
     flex-wrap: wrap;
     gap: 20px;
     padding-bottom: 70px;
@@ -9,16 +7,26 @@
 
 #Proyectos {
     h2 {
-        font-size: 3rem;
-        color: #fff;
+        font: $h2-font;
+        font-size: $medida;
+        padding-top: 60px;
+        padding: 60px;
         text-align: center;
-        padding: 50px;
-        padding-top: 80px;
     }
 
     img {
-        width: 20em;
-        gap: 10px;
+        width: 350px;
+        height: 312.641px;
+        gap: 20px;
         border-radius: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    #Proyectos img {
+        width: 100%;
+        height: 100%;
+        gap: 20px;
+        margin-left: 10px;
     }
 }

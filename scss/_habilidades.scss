@@ -6,10 +6,10 @@
     width: 100%;
 
     h2 {
-        font-size: 2.5rem;
-        color: #ffff;
-        text-align: center;
-        padding-top: 80px;
+        font: $h2-font;
+        font-size: $medida;
+        padding-top: 60px;
+
     }
 
     .cuadro {
@@ -31,18 +31,13 @@
     }
 
     ul {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-all(row, center, center, center);
         flex-wrap: wrap;
         gap: 30px;
     }
 
     li {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        @include flex-all(row, center, center, center);
         gap: 20px;
         width: 125px;
         height: 125px;
@@ -62,6 +57,7 @@
     }
 
     .bx {
+        padding-top: 20px;
         color: #fff;
         font-size: 50px;
     }
@@ -124,12 +120,12 @@
 
 .sass {
     &:hover {
-        background: rgb(235, 153, 224);
+        background: #D85497;
     }
 }
 
 .nodejs {
     &:hover {
-        background: #157a2b;
+        background: #6b9216;
     }
 }
