@@ -1,14 +1,9 @@
-header {
-    position: sticky;
-    @include flex-all(row, center, center, center);
-    background: #252A2E;
-}
-
-.navegador {
-    @include flex-all(row, center, center, center);
-}
-
 .navbar {
+    ul li {
+        @include flex-all(column, center, center, center);
+        padding-left: 40px;
+    }
+
     a {
         margin: 0 20px;
         color: #fff;
@@ -19,6 +14,7 @@ header {
         }
     }
 }
+
 
 nav {
     &::before {

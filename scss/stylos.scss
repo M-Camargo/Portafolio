@@ -164,6 +164,16 @@ footer {
 }
 
 @media (max-width: 576px) {
+
+    body {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        height: 100vh;
+        overflow-x: hidden;
+        font-family: "Raleway";
+    }
+
     .inicio__cuadro {
         background-color: #1E2326;
         border-radius: 50px;
