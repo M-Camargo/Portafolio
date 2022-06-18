@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/stylos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
@@ -110,9 +111,10 @@
         <div class=" row">
             <div class="col-md-12">
                 <h2 class="text-center">
-                    <B> Sobre mi </B>
+                    <B> <span> Sobre mi </span> </B>
                 </h2>
-                <p><b>Hola, Soy Marcos!</b> un aspirante a full stack developer, me gusta codificar cosas desde cero y
+                <p data-aos="fade-down"><b>Hola, Soy Marcos!</b> un aspirante a full stack developer, me gusta codificar
+                    cosas desde cero y
                     disfruto dandole vida a los pensamientos/ideas en el navegador.
                     Siempre he sido alguien que tiene un lado creativo como lógico. Cuando descubrí el desarrollo web en
                     la universidad, me di cuenta de que encajaría perfectamente. Podría usar mi lado creativo para
@@ -121,11 +123,11 @@
                     siempre hay algo nuevo, por ende uno nunca deja de aprender.
                 </p>
                 <div class="row">
-                    <div class="col-md-6 .justify-content-center">
-                        <h3 class="text-center"> <b> Mi Familia </b></h3>
+                    <div class="col-md-6 .justify-content-center" data-aos="fade-right">
+                        <h3 class=" text-center"> <b> Mi Familia </b></h3>
                         <img alt="familia" src="./assets/familia.webp" class="rounded" />
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-left">
 
                         <h3 class="text-center"> <b> Mis Hobbies </b></h3>
 
@@ -175,7 +177,7 @@
                     </div>
                 </div>
                 <div class="sobremi__contenedor__buttom">
-                    <div class="sobremi__buttom">
+                    <div class="sobremi__buttom" data-aos="fade-up">
                         <button class="boton__cv">
                             <a href="https://www.uc3m.es/orientacionyempleo/media/orientacionyempleo/doc/archivo/doc_plantillascv/plantillas-de-cv-para-descargar-gratis.pdf"
                                 target="_blank"> Descargar CV </a> </button>
@@ -187,31 +189,25 @@
     <section id="Habilidades" style="background-color: #252A2E; color: #ffff;">
         <div class="col-md-12">
             <h2 class="text-center">
-                <b> Habilidades </b>
+                <b> <span> Conocimientos</span></b>
             </h2>
             <div class="row">
-                <div class="cuadro">
+                <div class="cuadro" data-aos="fade-up">
                     <div class="col-md-12">
                         <div class="contenedor__habilidades">
-
-
                             <ul class="list-unstyled ">
-
-
                                 <div>
                                     <li class="photoshop">
                                         <a href="https://www.adobe.com/ar/products/photoshop.html" target="_blank">
                                             <p><i class='bx bxl-adobe'></i><span>Adobe Photoshop</span></p>
                                     </li></a>
                                 </div>
-
                                 <div>
                                     <li class="figma">
                                         <a href="https://www.figma.com/" target="_blank">
                                             <p><i class='bx bxl-figma'></i><span>Figma</span></p>
                                     </li></a>
                                 </div>
-
                                 <div>
                                     <li class="vsc">
                                         <a href="https://code.visualstudio.com/" target="_blank">
@@ -219,86 +215,177 @@
                                             </p>
                                     </li></a>
                                 </div>
-
                                 <div>
                                     <li class="html">
                                         <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">
                                             <p><i class='bx bxl-html5'></i><span>HTML</span></p>
                                     </li></a>
                                 </div>
-
                                 <div>
                                     <li class="css">
                                         <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">
                                             <p><i class='bx bxl-css3'></i><span>CSS</span></p>
                                     </li></a>
                                 </div>
-
-                                <li class="sass">
-                                    <a href="https://sass-lang.com/" target="_blank">
-                                        <p><i class='bx bxl-sass'></i><span>SASS</span></p>
-                                </li></a>
-
+                                <div>
+                                    <li class="sass">
+                                        <a href="https://sass-lang.com/" target="_blank">
+                                            <p><i class='bx bxl-sass'></i><span>SASS</span></p>
+                                    </li></a>
+                                </div>
                                 <div>
                                     <li class="bst">
                                         <a href="https://getbootstrap.com/" target="_blank">
                                             <p><i class='bx bxl-bootstrap'></i><span>Bootstrap</span></p>
                                     </li></a>
                                 </div>
-                                <li class="nodejs">
-                                    <a href="https://nodejs.org/es/" target="_blank">
-                                        <p><i class='bx bxl-nodejs'></i><span>NodeJs</span></p>
-                                </li></a>
-
                                 <div>
                                     <li class="git">
                                         <a href="https://git-scm.com/" target="_blank">
                                             <p><i class='bx bxl-git'></i><span>Git</span></p>
                                     </li></a>
                                 </div>
-
                                 <div>
                                     <li class="github">
                                         <a href="https://github.com/" target="_blank">
                                             <p><i class='bx bxl-github'></i><span>GitHub</span></p>
                                     </li></a>
                                 </div>
-
-
                             </ul>
                         </div>
-
-
                     </div>
                 </div>
             </div>
         </div>
-
-
     </section>
+
+    <div id="Conocimientos_en_proceso" style="background-color: #252A2E; color: #ffff;">
+        <div class="col-md-12">
+            <h2 class="text-center">
+                <b> <span> En proceso </span></b>
+            </h2>
+            <div class="row">
+                <div class="cuadro" data-aos="fade-up">
+                    <div class="col-md-12">
+                        <div class="contenedor__habilidades_2">
+                            <ul class="list-unstyled">
+                                <div>
+                                    <li class="Javascript">
+                                        <a href="https://www.javascript.com/" target="_blank">
+                                            <p><i class='bx bxl-javascript'></i><span>Javascript</span></p>
+                                    </li></a>
+                                </div>
+                                <div>
+                                    <li class="Json">
+                                        <a href="https://www.json.org/json-es.html" target="_blank">
+                                            <p><i class='bx bxs-file-json'></i><span>Json</span></p>
+                                    </li></a>
+                                </div>
+                                <div>
+                                    <li class="Terminal">
+                                        <a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/cmd"
+                                            target="_blank">
+                                            <p><i class='bx bxs-terminal'></i><span>Terminal</span>
+                                            </p>
+                                    </li></a>
+                                </div>
+                                <div>
+                                    <li class="Mysql">
+                                        <a href="https://www.mysql.com/" target="_blank">
+                                            <p><i class='bx bxs-data'></i><span>MySql</span></p>
+                                    </li></a>
+                                </div>
+                                <div>
+                                    <li class="Php">
+                                        <a href="https://www.php.net/" target="_blank">
+                                            <p><i class='bx bxl-php'></i><span>php</span>
+                                            </p>
+                                    </li></a>
+                                </div>
+                                <div>
+                                    <li class="nodejs">
+                                        <a href="https://nodejs.org/es/" target="_blank">
+                                            <p><i class='bx bxl-nodejs'></i><span>NodeJs</span></p>
+                                    </li></a>
+                                </div>
+                                <div>
+                                    <li class="python">
+                                        <a href="https://www.python.org/" target="_blank">
+                                            <p><i class='bx bxl-python'></i><span>Python</span></p>
+                                    </li></a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <section id="Proyectos" style="background-color: #1E2326;">
         <div class="row">
             <div class="row">
                 <div class="col-md-12" style="color: #fff;">
-                    <h2><b> Proyectos </b></h2>
+                    <h2><b> <span> Proyectos </span></b></h2>
                     <div class="row">
                         <div class="col-md-12 ">
-                            <div class="contenedor__proyectos">
-                                <a href="./paginas/proyectosBlanck.html" target="blank"> <img
-                                        src="./assets//proyectos__1.jpg" alt="Ilustracion Proyectos"></a>
-                                <a href="./paginas/proyectosBlanck.html" target="blank"> <img
-                                        src="./assets//proyectos__2.jpg" alt="Ilustracion Proyectos"></a>
-                                <a href="./paginas/proyectosBlanck.html" target="blank"> <img
-                                        src="./assets//proyectos__3.jpg" alt="Ilustracion Proyectos"></a>
+                            <div class="contenedor__proyectos" data-aos="fade-up">
+
                                 <div class="box">
-                                    <a href="./paginas/proyectosBlanck.html" target="blank"> <img
+                                    <a href="https://www.iparatodos.com.ar/" target="_blank">
+                                        <img src="./assets//proyectos__1.jpg" alt="internet para todos"></a>
+
+                                    <div class="hover-1">
+                                        <h4> Web Original </h4>
+                                        <a href="https://www.iparatodos.com.ar/" target="_blank"><button
+                                                class="buton-box"><span> ver </span></button></a>
+                                    </div>
+
+                                    <div class="hover-2">
+                                        <h4> Web Remasterizada </h4>
+                                        <p>HTML CSS JS</p>
+                                        <a href="./paginas/proyectosBlanck.html" target="_blank"><button
+                                                class="buton-box"><span> ver </span></button></a>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img src="./assets//proyectos__2.jpg" alt="belgrano"></a>
+                                    <div class="hover-1">
+                                        <h4> Web Original </h4>
+                                        <a href="https://www.belgranocordoba.com/" target="_blank"><button
+                                                class="buton-box"><span> ver </span></button></a>
+                                    </div>
+                                    <div class="hover-2">
+                                        <h4> Web Remasterizada </h4>
+                                        <p> HTML CSS JS</p>
+                                        <a href="./paginas/proyectosBlanck.html" target="_blank"><button
+                                                class="buton-box"><span> ver </span></button></a>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <img src="./assets//proyectos__3.jpg" alt="fms"></a>
+                                    <div class="hover-1">
+                                        <h4> Web Original </h4>
+                                        <a href="https://argentina.fmstickets.com/" target="_blank"><button
+                                                class="buton-box"><span> ver </span></button></a>
+                                    </div>
+                                    <div class="hover-2">
+                                        <h4> Web Remasterizada </h4>
+                                        <p> HTML CSS JS</p>
+                                        <a href="./paginas/proyectosBlanck.html" target="_blank"><button
+                                                class="buton-box"><span> ver </span></button></a>
+                                    </div>
+                                </div>
+
+                                <div class="box">
+                                    <a href="./paginas/proyectosBlanck.html" target="_blank"> <img
                                             src="./assets//proyectos__4.jpg" alt="Ilustracion Proyectos"></a>
+
                                     <div class="hover">
                                         <h4> Proyecto </h4>
                                         <p> Herramientas Utilizadas</p>
-                                        <a href="./paginas/proyectosBlanck.html" target="blank"><button
-                                                class="buton-box"><span> ver mas </span></button></a>
+                                        <a href="./paginas/proyectosBlanck.html" target="_blank"><button
+                                                class="buton-box"><span> ver </span></button></a>
                                     </div>
 
                                 </div>
@@ -307,52 +394,52 @@
                                     <div class="hover">
                                         <h4> Proyecto </h4>
                                         <p> Herramientas Utilizadas</p>
-                                        <a href="./paginas/proyectosBlanck.html" target="blank"><button
-                                                class="buton-box"><span> ver mas </span></button></a>
+                                        <a href="./paginas/proyectosBlanck.html" target="_blank"><button
+                                                class="buton-box"><span> ver </span></button></a>
                                     </div>
 
                                 </div>
                                 <div class="box">
-                                    <a href="./paginas/proyectosBlanck.html" target="blank"> <img
+                                    <a href="./paginas/proyectosBlanck.html" target="_blank"> <img
                                             src="./assets//proyectos__7.jpg" alt="Ilustracion Proyectos"></a>
                                     <div class="hover">
                                         <h4> Proyecto </h4>
                                         <p> Herramientas Utilizadas</p>
-                                        <a href="./paginas/proyectosBlanck.html" target="blank"><button
-                                                class="buton-box"><span> ver mas </span></button></a>
+                                        <a href="./paginas/proyectosBlanck.html" target="_blank"><button
+                                                class="buton-box"><span> ver </span></button></a>
                                     </div>
 
                                 </div>
                                 <div class="box">
-                                    <a href="./paginas/proyectosBlanck.html" target="blank"> <img
+                                    <a href="./paginas/proyectosBlanck.html" target="_blank"> <img
                                             src="./assets//proyectos__8.jpg" alt="Ilustracion Proyectos"></a>
                                     <div class="hover">
                                         <h4> Proyecto </h4>
                                         <p> Herramientas Utilizadas</p>
-                                        <a href="./paginas/proyectosBlanck.html" target="blank"><button
-                                                class="buton-box"><span> ver mas </span></button></a>
+                                        <a href="./paginas/proyectosBlanck.html" target="_blank"><button
+                                                class="buton-box"><span> ver </span></button></a>
                                     </div>
 
                                 </div>
                                 <div class="box">
-                                    <a href="./paginas/proyectosBlanck.html" target="blank"> <img
+                                    <a href="./paginas/proyectosBlanck.html" target="_blank"> <img
                                             src="./assets//proyectos__9.jpg" alt="Ilustracion Proyectos"></a>
                                     <div class="hover">
                                         <h4> Proyecto </h4>
                                         <p> Herramientas Utilizadas</p>
-                                        <a href="./paginas/proyectosBlanck.html" target="blank"><button
-                                                class="buton-box"><span> ver mas </span></button></a>
+                                        <a href="./paginas/proyectosBlanck.html" target="_blank"><button
+                                                class="buton-box"><span> ver </span></button></a>
                                     </div>
 
                                 </div>
                                 <div class="box">
-                                    <a href="./paginas/proyectosBlanck.html" target="blank"> <img
+                                    <a href="./paginas/proyectosBlanck.html" target="_blank"> <img
                                             src="./assets//proyectos__10.jpg" alt="Ilustracion Proyectos"></a>
                                     <div class="hover">
                                         <h4> Proyecto </h4>
                                         <p> Herramientas Utilizadas</p>
-                                        <a href="./paginas/proyectosBlanck.html" target="blank"><button
-                                                class="buton-box"><span> ver mas </span></button></a>
+                                        <a href="./paginas/proyectosBlanck.html" target="_blank"><button
+                                                class="buton-box"><span> ver </span></button></a>
                                     </div>
 
                                 </div>
@@ -366,23 +453,24 @@
     <section id="Contacto" style="background-color: #252A2E; color: #ffff;">
         <div class=" row">
             <div class="col-md-12">
-                <h2 class="text-center"> <b> Contacto </b></h2>
+                <h2 class="text-center"> <b> <span> Contacto </span> </b></h2>
                 <p>Tiene alguna pregunta o quiere que trabajemos juntos?</p>
                 <div class="row">
                     <div class="col-md-12">
                         <form role="form">
                             <div class="form-group">
-                                <div class="contacto__formulario">
+                                <div class="contacto__formulario" data-aos="flip-up">
                                     <input class="cajas" type="text" placeholder="Nombre">
                                     <input class="cajas" type="email" placeholder="Correo electronico">
                                     <input class="cajas" type="number" placeholder="Numero de telefono">
                                     <input class="texto" type="text" placeholder="Tu mensaje aqui...">
-
                                     <div>
-
                                         <button class="boton">
                                             <span> Enviar </span>
                                         </button>
+                                    </div>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -402,28 +490,28 @@
 
 
                 <div class="footer__iconos">
-                    <div class="footers__iconos">
+                    <div class="footers__iconos" data-aos="fade-up">
                         <a href="https://www.facebook.com/Marcos.Sud98" target="_blank">
 
                             <p><i class='bx bxl-facebook'></i></p>
                         </a>
                     </div>
 
-                    <div class="footers__iconos">
+                    <div class="footers__iconos" data-aos="fade-up">
                         <a href="https://www.linkedin.com/in/marcos-jesus-camargo-2382361a2/" target="_blank">
 
                             <p><i class='bx bxl-linkedin'></i></p>
                         </a>
                     </div>
 
-                    <div class="footers__iconos">
+                    <div class="footers__iconos" data-aos="fade-up">
                         <a href="https://www.instagram.com/marquitos.camargo/" target="_blank">
 
                             <p><i class='bx bxl-instagram'></i></p>
                         </a>
                     </div>
 
-                    <div class="footers__iconos">
+                    <div class="footers__iconos" data-aos="fade-up">
                         <a href="mailto:marcos.jesus.camargo98@gmail.com" target="_blank">
 
                             <p><i class='bx bxl-gmail'></i></p>
@@ -440,6 +528,12 @@
             </footer>
         </div>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 
 </body>
 

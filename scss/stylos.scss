@@ -6,7 +6,6 @@
 @import "_proyectos";
 @import "_contacto";
 
-
 body {
     margin: 0%;
     padding: 0%;
@@ -162,6 +161,23 @@ footer {
         text-align: center;
     }
 }
+
+span {
+    position: relative;
+}
+
+h2 span::after {
+    background-color: #fff;
+    content: "";
+    border-radius: 2px;
+    width: 60%;
+    height: 8%;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    z-index: 0;
+}
+
 
 @media (max-width: 576px) {
 

@@ -124,8 +124,72 @@
     }
 }
 
-.nodejs {
-    &:hover {
-        background: #6b9216;
+
+
+#Conocimientos_en_proceso {
+    h2 {
+        font: $h2-font;
+        font-size: $medida;
+
     }
+
+    .cuadro {
+        background-color: #1E2326;
+        border-radius: 20px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) inset;
+        width: 68%;
+        height: auto;
+        margin-top: 3%;
+        margin-left: 16%;
+        margin-right: 16%;
+        margin-bottom: 50px;
+    }
+
+    .contenedor__habilidades_2 {
+        @extend .contenedor__habilidades;
+    }
+
+    .Javascript {
+        &:hover {
+            background: #9f9f12;
+        }
+    }
+
+    .Mysql {
+        &:hover {
+            background: #E68E01;
+        }
+    }
+
+    .Json {
+        &:hover {
+            background: #292929;
+        }
+    }
+
+    .Terminal {
+        &:hover {
+            background: #000000;
+        }
+    }
+
+    .Php {
+        &:hover {
+            background: #777BB3;
+        }
+    }
+
+    .nodejs {
+        &:hover {
+            background: #6b9216;
+        }
+    }
+
+
+    .python {
+        &:hover {
+            background: #3572A8;
+        }
+    }
+
 }

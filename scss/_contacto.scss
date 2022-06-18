@@ -6,6 +6,7 @@
     width: auto;
     height: 800px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -25,8 +26,11 @@
 }
 
 .contacto__formulario {
-    @include flex-all(column, center, center, center);
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .cajas {
@@ -54,11 +58,11 @@
 }
 
 .boton {
-    width: 150%;
+
+    width: 100%;
     background-color: #1E2326;
     color: #ffffff;
     padding: 10px;
-    margin: auto;
     border: 1px;
     margin-top: 10%;
     cursor: pointer;

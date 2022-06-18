@@ -1,11 +1,14 @@
-.navbar {
+.navbar-nav {
     ul li {
-        @include flex-all(column, center, center, center);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
         padding-left: 40px;
     }
 
     a {
-        margin: 0 20px;
+        margin-left: 85px;
         color: #fff;
         font-size: 1.5rem;
 
@@ -17,6 +20,7 @@
 
 
 nav {
+
     &::before {
         content: "";
         height: 4px;
