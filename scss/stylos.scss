@@ -1,7 +1,17 @@
 @import "variables";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 #Sobre_mi {
+
+
     h2 {
+
         font: color #ffff, text-align center;
         font-size: 3rem;
         padding-top: 60px;
@@ -153,6 +163,7 @@
 }
 
 nav {
+
     &::before {
         content: "";
         height: 4px;
@@ -702,7 +713,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/001/241/853/large_2x/grayscale-of-yosemite-mountain-range-free-photo.jpeg);
+    background-image: url(/assets/marcos.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
