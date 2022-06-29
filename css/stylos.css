@@ -528,7 +528,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(/assets/marcos.jpg);
+  background-image: url(../assets/marcos.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
